@@ -17,7 +17,7 @@ while (numero > 0) {
     scanf(&algarismo = numero % 10;)
     &soma = soma + algarismo;
     &numero = numero/10;
-
+//sei nem oq estou fzd
 }
 printf("a soma dos algarismos eh %d\n", soma)
 

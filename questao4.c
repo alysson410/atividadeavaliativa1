@@ -1,30 +1,18 @@
 #include <stdio.h>
 
-int main(){
-int funcionario;
-   
+int main() {
+float salario = 0;
+char funcionario;
 
-printf("insira um funcionario:\n");
-scanf("%d.\n", &funcionario);
+scanf("%c", &funcionario);
+scanf("%f", &salario);
 
- if(funcionario == a){
- printf("pobre %d.\n", &funcionario);
-} if else(funcionario == b){
-    printf("ricah %d.\n", &funcionario);
-} if else(funcionario == c){
-    printf("classie medie %d.\n", &funcionario);
+ if (funcionario == 'a') {
+ printf("R$ %.2f", salario *= 1.05);
+} else if(funcionario == 'b'){
+    printf("R$ %.2f", salario *= 1.07);
+} else if(funcionario == 'c'){
+    printf("R$ %.2f", salario *= 1.08);
 }
-
-/**/
-     
-   /* float salario_a = 1000.0;
-    float salario_b = 2000.0;
-    float salario_c = 3000.0;
-
-    salario_a *= 1.05;
-    salario_b *= 1.07;
-    salario_c *= 1.08;
-*/
-
-    return 0;
+  return 0;
 }

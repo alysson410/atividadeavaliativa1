@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int main() {
+int main(){
 
 int numero, digito, soma = 0;
 
  scanf("%d", &numero);
 
- if (numero % 2 == 0){
+ if(numero % 2 == 0){
  printf("%d eh par\n", numero);
  } else{
     printf("%d eh impar\n", numero);
